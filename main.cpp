@@ -37,7 +37,8 @@ int getInput()
 			"1. Show list\n"
 			"2. Add new member to list\n"
 			"3. Remove member from the list\n"
-			"4. Save\n");
+			"4. Save\n"
+	       		"5. Load\n");
 	return -1;
 }
 void updateInput(int& input, std::vector<Work>& list)
